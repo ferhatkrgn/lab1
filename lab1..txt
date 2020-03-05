@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML ODEVI</title>
+</head>
+<body><center>
+    <font  size="6" color="blue"> SİTEMİZE HOŞGELDİNİZ</font></center>
+    <br><br><br><br><br><br>
+    <div>
+        <br><br>
+        <font color="red" ><center>
+        LÜTFEN GİRİŞ YAPINIZ!
+        </font></center>
+    </div>
+    <div >
+    <table align="center" border="10px solid red">
+        <tr>
+            <td> <label>Kullanıcı adı :   </label> </td>
+            <td> <input type="text" id="fname" name="fname"><br> </td>
+        </tr>
+        
+        <tr>
+            <td> <label>E-mail :</label> </td>
+            <td> <input type="e-mail" id="e-mail" name="e-mail"><br> </td>
+        </tr>
+        <tr>
+            <td><label>Şifre :</label></td>
+            <td><input type="password" id="sifre" name="sifre"><br></td>
+        </tr>
+        <tr>
+            <td><button  type="button" onclick="alert('SİTEMİZE HOŞGELDİNİZ!')">GİRİŞ!</button></td>
+        </tr>
+</div>
+</body>
+</html>
